@@ -1,0 +1,34 @@
+[
+  {
+    "id": "mock-engine",
+    "name": "PromptLab Heuristic Engine",
+    "description": "Fast, rule-based analysis (No API key required)",
+    "model": "internal",
+    "apiKeyEnv": "",
+    "provider": "mock"
+  },
+  {
+    "id": "gemini-flash-latest",
+    "name": "Gemini Flash Latest",
+    "description": "Most reliable for free tier. Fast and balanced.",
+    "model": "gemini-flash-latest",
+    "apiKeyEnv": "GEMINI_API_KEY",
+    "provider": "gemini"
+  },
+  {
+    "id": "gemini-2.5-flash",
+    "name": "Gemini 2.5 Flash",
+    "description": "Advanced reasoning and large context window.",
+    "model": "gemini-2.5-flash",
+    "apiKeyEnv": "GEMINI_API_KEY",
+    "provider": "gemini"
+  },
+  {
+    "id": "gemini-3-flash-preview",
+    "name": "Gemini 3 Flash",
+    "description": "Fast and efficient for quick iterations.",
+    "model": "gemini-3-flash-preview",
+    "apiKeyEnv": "GEMINI_API_KEY",
+    "provider": "gemini"
+  }
+]
